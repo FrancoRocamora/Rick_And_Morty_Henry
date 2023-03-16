@@ -14,7 +14,7 @@ function About() {
                     i'm here doing this app with a lot of tools (React, Redux, JS, CSS, HTML).
                     Hope i can get a job in the area on a near future. 
                     Next week i will be learning about back-end tools and implementing a server for this app.
-                    And last but no least will be one week of data bases. Hope to see this project in a month. Cheers
+                    And last, but no least, will be one week of data bases tools. Hope to see this project in a month. Cheers
                 </p>
             </div>
        </div>
