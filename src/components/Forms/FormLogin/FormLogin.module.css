@@ -1,0 +1,89 @@
+.formContainer{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    padding: 1em;
+    border: 5px #38A5A1 outset ;
+    background-color: #3c578cb4;
+    box-shadow: 8px 8px 4px #201E50 ;
+    margin-top: 15em;
+}
+
+.usernameContainer{
+    align-self: baseline;
+    display: flex;
+    margin: 1em;
+    padding: 1em;
+    font-weight: bold;
+}
+
+.passwordContainer{
+    align-self: baseline;
+    display: flex;
+    margin: 1em;
+    padding: 1em;
+    font-weight: bold;
+}
+
+
+.username{
+    font-weight: bold;
+    margin-right: 1em;
+    background-color: #201E50;
+    color: #b64035;
+    outline: none;
+}
+
+.username:focus{    
+    transition: 1s;
+	box-shadow:  0px 0px 3px 4px#b64035 
+}
+
+.password{
+    font-weight: bold;
+    margin-right: 1em;
+    background-color: #201E50;
+    color: #b64035;
+    outline: none;
+}
+
+.password:focus{    
+    transition: 1s;
+	box-shadow:  0px 0px 3px 4px#b64035 
+}
+
+
+.label{
+    color: #38A5A1;
+    background-color: rgba(0, 0, 0, 0.521);
+    border-radius: 20px;
+    border: 2px solid black;
+    width: 6em;
+    margin-right: 1em;
+}
+
+.error{
+    font-weight: bold;
+}
+
+.button{
+    margin: 1%;
+	border: none;
+	border-radius: 20px 20px 20px 20px;
+	background-color: #201E50;
+	color: #b64035;
+	text-indent: -10%;
+	font-weight: bold;
+	margin-left: 20px;
+    width: 10em;
+    height: 2.5em;
+}
+
+.button:hover {
+	transition: 1s;
+	box-shadow:  0px 0px 3px 4px#b64035;
+	
+	color: #e62514;
+}

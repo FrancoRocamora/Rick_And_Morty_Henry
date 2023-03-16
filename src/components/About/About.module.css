@@ -1,0 +1,57 @@
+
+.container{
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3c578cb4;
+    box-shadow: 8px 8px 4px #201E50 ;
+    border: 5px #38A5A1 outset ;
+    width: 30%;
+    padding: 1em;
+    margin-top: 1em;
+
+}
+
+.specs{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    box-shadow: inset 0px 0px 15px 25px  #201E50;
+    border: 2.5px solid black;
+    background-color: #201e5091;
+    margin-top: 2%;
+}
+
+.image{
+    border: 2.5px solid #201E50;
+    margin-top: 1em;
+    width: 15em;
+}
+
+
+.name{
+    color: #38A5A1;
+    background-color: rgba(0, 0, 0, 0.521);
+    border: 2px solid black;
+    border-radius: 20px;
+    font-size: 1.2em;
+    padding: 0.5em;
+}
+
+.specie{
+    color: #38A5A1;
+    font-size: 2em;
+    margin: 0.5em;
+}
+
+.gender{
+    color: #38A5A1;
+    font-size: 2em;
+    margin: 0.5em;
+}
+
+.description{
+    color: #38A5A1;
+    font-size: 1.5em;
+}

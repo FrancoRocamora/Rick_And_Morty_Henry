@@ -1,0 +1,125 @@
+.container{
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content:space-evenly;
+	margin: 0% 3%;
+	background-color: #b64035cb;
+	border: 5px solid #201E50;
+	box-shadow: inset 0px 0px 10px 8px #201E50;
+}
+.absoluteContainer{
+	display: flex;
+	flex-direction: row-reverse;
+	margin: 1em;
+	height: 1em;
+	
+}
+.input{
+	margin: 1%;
+	border-radius: 20px 0px 0px 20px;
+	padding: 0.3%;
+	text-indent: 7%;
+	border: none;
+	border-right: 1px solid #b64035;
+	background-color: #201E50;
+	font-weight: bold;
+	color: #b64035;
+	outline: none;
+	font-size: 0.5;	
+	width:10em;
+	height: 2.5em;
+}
+
+.button{
+	margin: 1%;
+	border: none;
+	border-radius: 0px 20px 20px 0px;
+	background-color: #201E50;
+	color: #b64035;
+	text-indent: -10%;
+	font-weight: bold;
+	margin-left: 20px;
+	height: 2.5em;
+}
+
+
+.button:hover {
+	transition: 1s;
+	box-shadow:  0px 0px 3px 4px#b64035;
+	margin-left: 1px;
+	color: #e62514;
+}
+
+.input:focus{
+	transition: 1s;
+	box-shadow:  0px 0px 3px 4px#b64035 ;
+}
+
+.about{
+	border: none;
+    padding:0.5em;
+    height: 1em;
+	background-color: #201E50;
+	color: #b64035;
+	font-weight: bold;
+	font-size: 1em;
+	font-family: sans-serif;
+ 	text-decoration: none;
+    margin: 1em;
+	border-radius: 1em;
+}
+.home{
+	border: none;
+	margin: 1em;
+    padding: 0.5em;
+	background-color: #201E50;
+	color: #b64035;
+ 	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	border-radius: 1em;
+    
+}
+
+.favorites{
+	border: none;
+    padding:0.5em;
+    height: 1em;
+	background-color: #201E50;
+	color: #b64035;
+	font-weight: bold;
+	font-size: 1em;
+	font-family: sans-serif;
+ 	text-decoration: none;
+    margin: 1em;
+	border-radius: 1em;
+}
+
+.logOut{
+	border: none;
+    padding:0.5em;
+    height: 1em;
+	background-color: #201E50;
+	color: #b64035;
+	font-weight: bold;
+	font-size: 1em;
+	font-family: sans-serif;
+ 	text-decoration: none;
+    margin: 1em;
+	border-radius: 1em;
+}
+
+.home:hover{
+    transition: 0.5s;
+    color: #e62514;
+    box-shadow:  0px 0px 3px 4px#b64035;
+}
+
+.about:hover{
+    transition: 0.5s;
+    color: #e62514;
+    box-shadow:  0px 0px 3px 4px#b64035;
+}
+
+

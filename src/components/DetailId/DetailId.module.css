@@ -1,0 +1,101 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3c578cb4;
+    box-shadow:  0px 0px 5px 8px #201E50 ;
+    padding: 1em;
+    margin: 10%
+}
+
+.image{
+    align-self: baseline;
+    border: 2px solid #201E50;
+    width: 35%;
+}
+
+.name{
+    letter-spacing: 0.2em;
+    margin-top: 1%;;
+    align-self: baseline;
+    font-size: 2em;
+    width: 100%;
+    color: #38A5A1;
+    background-color: rgba(0, 0, 0, 0.521);
+    border-radius: 20px;
+    border: 2px solid black;
+    font-weight: bolder;
+}
+
+.innerContainer{
+    width:40%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: baseline;
+    position: absolute;
+    right: 14%;
+    border: 1px solid #b64035;
+    box-shadow:   inset 0px 0px 10px 7px#b64035;
+    padding: 1em;
+    background-color:  #b6403542;
+    height: 42.3%;
+}
+
+.id{
+    padding: 2%;
+    font-size: 2em;
+    font-weight: bold;
+    border: 1.5px solid black;
+    border-radius: 20px;
+    align-self: center;
+}
+
+.gender{
+    padding: 1.5%;
+    font-size: 1.3em;
+    font-weight: bold;
+
+   
+}
+
+.specie{
+    padding: 1.5%;
+    font-size: 1.3em;
+    font-weight: bold;
+   
+   
+}
+
+.status{
+    padding: 1.5%;
+    font-size: 1.3em;
+    font-weight: bold;
+   
+   
+}
+
+.locationName{
+    
+    padding: 1.5%;
+    font-size: 1.3em;
+    font-weight: bold;
+  
+  
+}
+
+.originName{
+    padding: 1.5%;
+    font-size: 1.3em;
+    font-weight: bold;
+ 
+  
+}
+
+.type{
+    padding: 1.5%;
+    font-size: 1.3em;
+    font-weight: bold;
+  
+   
+}
